@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31605.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Axxes.Haxx", "Axxes.Haxx\Axxes.Haxx.csproj", "{4DEC3544-2B96-4AEA-8B00-DBC20FD5A44F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Axxes.Haxx.EntityFramework", "Axxes.Hax.EntityFramework\Axxes.Haxx.EntityFramework.csproj", "{49D75E59-8B27-4FA3-BD8B-37579C4504D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DEC3544-2B96-4AEA-8B00-DBC20FD5A44F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DEC3544-2B96-4AEA-8B00-DBC20FD5A44F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DEC3544-2B96-4AEA-8B00-DBC20FD5A44F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DEC3544-2B96-4AEA-8B00-DBC20FD5A44F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49D75E59-8B27-4FA3-BD8B-37579C4504D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49D75E59-8B27-4FA3-BD8B-37579C4504D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49D75E59-8B27-4FA3-BD8B-37579C4504D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49D75E59-8B27-4FA3-BD8B-37579C4504D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FEF29185-7C1B-419B-A802-B56B91553F9F}
+	EndGlobalSection
+EndGlobal

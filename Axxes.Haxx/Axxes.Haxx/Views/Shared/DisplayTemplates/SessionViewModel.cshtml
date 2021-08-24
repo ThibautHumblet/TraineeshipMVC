@@ -1,0 +1,20 @@
+﻿@model SessionViewModel
+
+<div class="col-md-4 col-sm-6 col-xs-12">
+    <div>
+        <h2>@Model.Title</h2>
+        <span class="date">@Model.Date</span>
+        @if (Model.Speaker != null)
+        {
+            <div class="speaker">Speaker: @Model.Speaker</div>
+        }
+        @if (string.IsNullOrEmpty(Model.Category))
+        {
+            <div class="category">Category: @Model.Category</div>
+        }
+        <div id="session-details-@Model.Id">
+            <a class="btn btn-outline-primary" id="session-details-button-@Model.Id" data-ajax="true" data-ajax-url="/Home/OpenDetailsViewModel/@Model.Id" data-ajax-update="#session-details-@Model.Id">View Detail</a>
+
+        </div>
+    </div>
+</div>

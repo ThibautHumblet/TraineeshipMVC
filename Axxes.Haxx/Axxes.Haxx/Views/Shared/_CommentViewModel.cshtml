@@ -1,0 +1,12 @@
+﻿@model SessionDetailsViewModel
+
+@foreach (var comment in Model.Comments)
+{
+    <li>
+        @comment.Text
+        @if (@comment.Author != null)
+        {
+            @: (by @comment.Author)
+        }
+    </li>
+}

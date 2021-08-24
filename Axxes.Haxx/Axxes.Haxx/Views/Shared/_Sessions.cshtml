@@ -1,0 +1,26 @@
+﻿@model UpcomingPassedSessionsViewModel
+
+<div>
+    <h1>Upcoming sessions</h1>
+    <div class="row">
+        @if (Model.UpcomingSessions.Any())
+        {
+            @Html.DisplayFor(sessions => sessions.UpcomingSessions)
+        }
+        else
+        {
+            <span>No sessions</span>
+        }
+    </div>
+    <h1>Passed sessions</h1>
+    <div class="row">
+        @if (Model.PassedSessions.Any())
+        {
+            @Html.DisplayFor(sessions => sessions.PassedSessions)
+        }
+        else
+        {
+            <span>No sessions</span>
+        }
+    </div>
+</div>
